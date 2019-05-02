@@ -4,8 +4,14 @@
    - คิดคำนวณการเก็บเงินในธนาคารหรือการออมเงินแบบประจำ
    - คิดดอกเบี้ย
 ### source code
-   - 
- 
+   - window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+     - คือการเรียกหน้าต่าง window ขึ้นมา
+   - button1 = gtk_button_new_with_label("Name");
+     - การสร้างปุ่ม
+   - val = gtk_entry_new();
+     - ช่องสำหรับ input
+### Poseter
+   
 ### Video
    - https://youtu.be/6Kv0IlIX3f8
 ### ประโยชน์จากการที่ได้ใช้แอพนี้
