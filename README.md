@@ -5,13 +5,13 @@
    - คิดดอกเบี้ย
    
 ### source code
- #### Library GTK+-3.0
-   - window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
-     - การเรียกหน้าต่าง WINDOW มา
-   - val = gtk_button_new_with_label("Name");
-     - การสร้างปุ่มกด
-   - val = gtk_entry_new();
-     - การสร้างช่อง input
+  #### Library GTK+-3.0
+    - window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+      - การเรียกหน้าต่าง WINDOW มา
+    - val = gtk_button_new_with_label("Name");
+      - การสร้างปุ่มกด
+    - val = gtk_entry_new();
+      - การสร้างช่อง input
 ### การลง GTK
   - http://www.tarnyko.net/repo/gtk3_build_system/tutorial/gtk3_tutorial.htm
  
@@ -19,7 +19,23 @@
   - Saving
     - คือการคำนวณการออมเงินธรรมดา แต่จะมีการคิดเพิ่ม เช่น
       - Income รายรับต่อวัน
-      -
+      - Expanse รายจ่าย
+      - Want ของต้องการซื้อ
+      - Day จำนวนวันที่จะออม
+      - Need เงินที่ต้องการออม
+      [![project_dpqewlWMus.png](https://www.img.live/images/2019/05/02/project_dpqewlWMus.png)](https://www.img.live/image/7L23Bn)
+  - Deposit
+    - การออมเงินที่มีดดอกเบี้ยแต่เป็นการออมครั้งเดียวแล้วรอดอกเบี้ย
+      - Money เงินต้องการออม
+      - Year จำนวนที่จะออมกี่ปี
+      - Interest ดอกเบี้ย
+      [![project_UTSZFUZ5qW.png](https://www.img.live/images/2019/05/02/project_UTSZFUZ5qW.png)](https://www.img.live/image/7L2cB6)
+  - Long term deposit
+    - การออมเงินระยะยาว
+      - Money เงินต้องการออมประจำในทุกๆปี
+      - Year จำนวนที่จะออมกี่ปี
+      - Interest ดอกเบี้ย
+      [![project_JEXwQ5ZL0h.th.png](https://www.img.live/images/2019/05/02/project_JEXwQ5ZL0h.th.png)](https://www.img.live/image/7L2M85)
 ### Poster
 [![Artboard1.png](https://www.img.live/images/2019/05/02/Artboard1.png)](https://www.img.live/image/7LLZqG)
 ### Video
